@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyShopAI", "BodyShopAI.csproj", "{7EF0F86A-7E7E-45AA-9FEA-FC4793AC756D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyShopAI.Domain", "..\BodyShopAI.Domain\BodyShopAI.Domain.csproj", "{EC4AB0C7-8FDD-4594-A911-63EE3F1E830E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyShopAI.Infra", "..\BodyShopAI.Infra\BodyShopAI.Infra.csproj", "{2DE020EE-FC97-45F3-9709-F8493AD823AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyShopAI.Contracts", "..\BodyShopAI.Contracts\BodyShopAI.Contracts.csproj", "{0EBBAEF0-E89A-4AC9-84AD-61D4E9F5AC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyShopAI.Impl", "..\BodyShopAI.Impl\BodyShopAI.Impl.csproj", "{5FD3965F-94EB-4961-8C80-FD784983BDD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyShopAI.IdentityServer", "..\BodyShopAI.IdentityServer\BodyShopAI.IdentityServer.csproj", "{462D3B18-D836-41E3-8F7E-4EE33512395D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF0F86A-7E7E-45AA-9FEA-FC4793AC756D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF0F86A-7E7E-45AA-9FEA-FC4793AC756D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF0F86A-7E7E-45AA-9FEA-FC4793AC756D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF0F86A-7E7E-45AA-9FEA-FC4793AC756D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4AB0C7-8FDD-4594-A911-63EE3F1E830E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4AB0C7-8FDD-4594-A911-63EE3F1E830E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4AB0C7-8FDD-4594-A911-63EE3F1E830E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4AB0C7-8FDD-4594-A911-63EE3F1E830E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE020EE-FC97-45F3-9709-F8493AD823AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE020EE-FC97-45F3-9709-F8493AD823AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE020EE-FC97-45F3-9709-F8493AD823AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE020EE-FC97-45F3-9709-F8493AD823AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBBAEF0-E89A-4AC9-84AD-61D4E9F5AC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBBAEF0-E89A-4AC9-84AD-61D4E9F5AC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBBAEF0-E89A-4AC9-84AD-61D4E9F5AC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBBAEF0-E89A-4AC9-84AD-61D4E9F5AC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD3965F-94EB-4961-8C80-FD784983BDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD3965F-94EB-4961-8C80-FD784983BDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD3965F-94EB-4961-8C80-FD784983BDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD3965F-94EB-4961-8C80-FD784983BDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462D3B18-D836-41E3-8F7E-4EE33512395D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462D3B18-D836-41E3-8F7E-4EE33512395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462D3B18-D836-41E3-8F7E-4EE33512395D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462D3B18-D836-41E3-8F7E-4EE33512395D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C172D369-04CF-4C76-81BC-2FFCC70E087F}
+	EndGlobalSection
+EndGlobal

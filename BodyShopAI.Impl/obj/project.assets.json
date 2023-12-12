@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "BodyShopAI.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BodyShopAI.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BodyShopAI.Contracts.dll": {}
+        }
+      },
+      "BodyShopAI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BodyShopAI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BodyShopAI.Domain.dll": {}
+        }
+      },
+      "BodyShopAI.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BodyShopAI.Contracts": "1.0.0",
+          "BodyShopAI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BodyShopAI.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BodyShopAI.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BodyShopAI.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BodyShopAI.Contracts/BodyShopAI.Contracts.csproj",
+      "msbuildProject": "../BodyShopAI.Contracts/BodyShopAI.Contracts.csproj"
+    },
+    "BodyShopAI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BodyShopAI.Domain/BodyShopAI.Domain.csproj",
+      "msbuildProject": "../BodyShopAI.Domain/BodyShopAI.Domain.csproj"
+    },
+    "BodyShopAI.Infra/1.0.0": {
+      "type": "project",
+      "path": "../BodyShopAI.Infra/BodyShopAI.Infra.csproj",
+      "msbuildProject": "../BodyShopAI.Infra/BodyShopAI.Infra.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BodyShopAI.Contracts >= 1.0.0",
+      "BodyShopAI.Domain >= 1.0.0",
+      "BodyShopAI.Infra >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\BodyShopAI\\BodyShopAI.Impl\\BodyShopAI.Impl.csproj",
+      "projectName": "BodyShopAI.Impl",
+      "projectPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Impl\\BodyShopAI.Impl.csproj",
+      "packagesPath": "C:\\Users\\Enzzo Lima\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Impl\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Enzzo Lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\Projects\\BodyShopAI\\BodyShopAI.Contracts\\BodyShopAI.Contracts.csproj": {
+              "projectPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Contracts\\BodyShopAI.Contracts.csproj"
+            },
+            "D:\\Projects\\BodyShopAI\\BodyShopAI.Domain\\BodyShopAI.Domain.csproj": {
+              "projectPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Domain\\BodyShopAI.Domain.csproj"
+            },
+            "D:\\Projects\\BodyShopAI\\BodyShopAI.Infra\\BodyShopAI.Infra.csproj": {
+              "projectPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Infra\\BodyShopAI.Infra.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
