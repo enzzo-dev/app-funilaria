@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pJCZpbCkpPCZ1/w1VK7wyNNTXaRmCBlk3aW7KP8ZyGbGuU5STpD7QkW+kvG8d0ya71C6qwuuyUGc6erWfElGhQ==",
+  "dgSpecHash": "M7a0DVeIE4UbDkljxqUTKV8MIQyrJRSmWZGbCN9oMNfNF86qweLgYFHhAKYVdNumCr0AeGE4cNrnkrDGwF6jLA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Contracts\\BodyShopAI.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\5.1.0\\mediatr.extensions.microsoft.dependencyinjection.5.1.0.nupkg.sha512",
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

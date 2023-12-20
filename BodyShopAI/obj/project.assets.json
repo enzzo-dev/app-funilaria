@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "MediatR/5.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "5.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -11,6 +33,15 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
       "Microsoft.OpenApi/1.2.3": {
@@ -79,16 +110,60 @@
       "BodyShopAI.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MediatR": "5.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0"
+        },
         "compile": {
           "bin/placeholder/BodyShopAI.Contracts.dll": {}
         },
         "runtime": {
           "bin/placeholder/BodyShopAI.Contracts.dll": {}
         }
+      },
+      "BodyShopAI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MediatR": "5.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0"
+        },
+        "compile": {
+          "bin/placeholder/BodyShopAI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BodyShopAI.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/5.1.0": {
+      "sha512": "Xt0a7rxi3L9Hqds8dATA+lLdo7k+g6vryACCDjzSRodXY7axISBhUOO0uY/94YN6aPw2sfBpBSF+t9gw2J2eLA==",
+      "type": "package",
+      "path": "mediatr/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MediatR.dll",
+        "lib/netstandard1.3/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.5.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/5.1.0": {
+      "sha512": "iFz9og0gyUUsbG9TBQfSxrnkOU6A9ZckGoswteeA+ip5Qvk0Bk60qJ5+AhXH/RCTxkSTNqQ3jP/gTmIWnFURsg==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.5.1.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -114,6 +189,19 @@
         "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "Microsoft.OpenApi/1.2.3": {
@@ -200,11 +288,19 @@
       "type": "project",
       "path": "../BodyShopAI.Contracts/BodyShopAI.Contracts.csproj",
       "msbuildProject": "../BodyShopAI.Contracts/BodyShopAI.Contracts.csproj"
+    },
+    "BodyShopAI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BodyShopAI.Domain/BodyShopAI.Domain.csproj",
+      "msbuildProject": "../BodyShopAI.Domain/BodyShopAI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "BodyShopAI.Contracts >= 1.0.0",
+      "BodyShopAI.Domain >= 1.0.0",
+      "MediatR >= 5.1.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 5.1.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -237,6 +333,9 @@
           "projectReferences": {
             "D:\\Projects\\BodyShopAI\\BodyShopAI.Contracts\\BodyShopAI.Contracts.csproj": {
               "projectPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Contracts\\BodyShopAI.Contracts.csproj"
+            },
+            "D:\\Projects\\BodyShopAI\\BodyShopAI.Domain\\BodyShopAI.Domain.csproj": {
+              "projectPath": "D:\\Projects\\BodyShopAI\\BodyShopAI.Domain\\BodyShopAI.Domain.csproj"
             }
           }
         }
@@ -251,6 +350,14 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"

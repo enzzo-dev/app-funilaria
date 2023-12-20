@@ -1,0 +1,17 @@
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\BodyShopAI.Contracts.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\BodyShopAI.Domain.dll
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\BodyShopAI.csprojAssemblyReference.cache
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\BodyShopAI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\BodyShopAI.AssemblyInfoInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\BodyShopAI.AssemblyInfo.cs
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\staticwebassets\BodyShopAI.StaticWebAssets.Manifest.cache
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\staticwebassets\BodyShopAI.StaticWebAssets.xml
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\scopedcss\bundle\BodyShopAI.styles.css
+D:\Projects\BodyShopAI\BodyShopAI\obj\Debug\net5.0\BodyShopAI.RazorTargetAssemblyInfo.cache
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\MediatR.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\BodyShopAI\BodyShopAI\bin\Debug\net5.0\MediatR.Contracts.dll

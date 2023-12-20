@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XVBwcaffA6Tnbq1zFc4Qn+UDvziOt/ARUctrEfXyVaz4MauB7BtBEMcqTgoTDJrTOmRT2+N2MEJi6CSfaGXNKQ==",
+  "dgSpecHash": "60fy/3428ZNNE9faFYtMXvuyTMifDDICcSAh11goAC9+Xbo1HA3VywXA611PAv7noZTxySSjlRV3Rn+LfT//ug==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BodyShopAI\\BodyShopAI\\BodyShopAI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\5.1.0\\mediatr.extensions.microsoft.dependencyinjection.5.1.0.nupkg.sha512",
     "C:\\Users\\Enzzo Lima\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Enzzo Lima\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Enzzo Lima\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Enzzo Lima\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Enzzo Lima\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

@@ -1,0 +1,6 @@
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Contracts.dll
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Domain.dll
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.csprojAssemblyReference.cache
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.AssemblyInfoInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.AssemblyInfo.cs
