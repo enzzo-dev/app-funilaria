@@ -8,8 +8,8 @@ namespace BodyShopAI.Domain.Enumerators
 {
     public enum Roles
     {
-        Administrador = 1,
-        Mecanico = 2,
-        Cliente = 3
+        Administrator = 1,
+        Mechanic = 2,
+        Client = 3
     }
 }
