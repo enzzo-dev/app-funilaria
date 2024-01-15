@@ -1,0 +1,12 @@
+D:\Projects\BodyShopAI\BodyShopAI.Domain\bin\Debug\net5.0\BodyShopAI.Domain.deps.json
+D:\Projects\BodyShopAI\BodyShopAI.Domain\bin\Debug\net5.0\BodyShopAI.Domain.dll
+D:\Projects\BodyShopAI\BodyShopAI.Domain\bin\Debug\net5.0\ref\BodyShopAI.Domain.dll
+D:\Projects\BodyShopAI\BodyShopAI.Domain\bin\Debug\net5.0\BodyShopAI.Domain.pdb
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.csprojAssemblyReference.cache
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.AssemblyInfoInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.AssemblyInfo.cs
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.dll
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\ref\BodyShopAI.Domain.dll
+D:\Projects\BodyShopAI\BodyShopAI.Domain\obj\Debug\net5.0\BodyShopAI.Domain.pdb

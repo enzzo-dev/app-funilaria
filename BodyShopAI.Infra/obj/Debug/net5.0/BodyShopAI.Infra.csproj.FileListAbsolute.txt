@@ -4,3 +4,14 @@ D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.csproj
 D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.AssemblyInfoInputs.cache
 D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.AssemblyInfo.cs
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Infra.deps.json
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Infra.dll
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\ref\BodyShopAI.Infra.dll
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Infra.pdb
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Contracts.pdb
+D:\Projects\BodyShopAI\BodyShopAI.Infra\bin\Debug\net5.0\BodyShopAI.Domain.pdb
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.csproj.CoreCompileInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.csproj.CopyComplete
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.dll
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\ref\BodyShopAI.Infra.dll
+D:\Projects\BodyShopAI\BodyShopAI.Infra\obj\Debug\net5.0\BodyShopAI.Infra.pdb

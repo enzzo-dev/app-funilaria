@@ -1,0 +1,12 @@
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\bin\Debug\net5.0\BodyShopAI.Contracts.deps.json
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\bin\Debug\net5.0\BodyShopAI.Contracts.dll
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\bin\Debug\net5.0\ref\BodyShopAI.Contracts.dll
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\bin\Debug\net5.0\BodyShopAI.Contracts.pdb
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.csprojAssemblyReference.cache
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.AssemblyInfoInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.AssemblyInfo.cs
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.csproj.CoreCompileInputs.cache
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.dll
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\ref\BodyShopAI.Contracts.dll
+D:\Projects\BodyShopAI\BodyShopAI.Contracts\obj\Debug\net5.0\BodyShopAI.Contracts.pdb
