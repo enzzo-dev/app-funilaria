@@ -4,6 +4,7 @@ using Ats.Domain.Library.Helpers;
 using BodyShopAI.Domain.Enumerators;
 using BodyShopAI.Domain.Helpers;
 using System;
+using System.Collections.Generic;
 
 namespace BodyShopAI.Domain.Entities
 {
@@ -21,6 +22,8 @@ namespace BodyShopAI.Domain.Entities
         public DateTime InsertDate { get; private set; }
         public DateTime? ModifyDate { get; private set; }
         public bool IsClient { get; private set; }
+        public List<Car> OwnCar { get; private set; }
+        public List<Budget> Budgets { get; private set; }
 
         public static void CreateUser(string name, string surname, string email, string password, int phone, bool isClient, byte role) 
                                      => new User(name, surname, email, password, phone, isClient, role);
